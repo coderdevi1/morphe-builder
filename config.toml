@@ -15,13 +15,6 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 arch = "arm64-v8a"
 
-# Keep the Google package name.
-# You have already tested this method successfully.
-patcher-args = """\
--OpackageName=com.google.android.youtube \
--e 'Clone app' \
--e 'Disable Play Store updates' \
-"""
 
 
 # ============================================================
